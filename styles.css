@@ -4,3 +4,81 @@
   box-sizing: border-box;
 }
 
+.btn{
+  outline: none;
+}
+
+.page{
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.title{
+    margin: auto;
+    height: max-content;
+    width: fit-content;
+}
+
+.reset{
+    margin: 10px 10px 10px 10px;
+}
+
+#btn{
+    text-align: center;
+    transform: scale(1.4);
+    border-radius: 5px;
+}
+
+.container{
+    display: inline-flex;
+    align-content: center;
+}
+
+#rock{
+    margin-left: auto;
+}
+
+#paper{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#scissors{
+    margin-right: auto;
+}
+
+img{
+  cursor: pointer;
+}
+
+.score{
+    display: inline;
+    height: max-content;
+    width: max-content;
+    align-content: center;
+}
+
+.player{
+    margin: auto 20px auto 20px;
+    border: 1px solid rgb(173, 58, 23);
+    border-radius: 5px;  
+}
+
+#player{
+   padding: 10px 10px 10px 10px;
+   font-size: larger;
+}
+
+.computer{
+    margin: 10px 20px auto 20px;
+    border: 1px solid rgb(173, 58, 23);
+    border-radius: 5px;
+}
+
+#computer{
+    padding: 10px 10px 10px 10px;
+    font-size: larger;
+}
+

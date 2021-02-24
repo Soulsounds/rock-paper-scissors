@@ -9,19 +9,39 @@
   <title>Rock Paper Scissors</title>
 </head>
 <body>
-  <div class="container">
-    <h1>ROCK PAPER SCISSORS</h1>
-    <p>First to score 5 wins!!!</p>
-
-    <div class="game-wrapper">
-      <div class="player-container">
-        <h2 class="player-label">Human</h2>
-        <div class="user-container">
-          <div class="user-profile"></div>
-        </div>
+  <div class="page">
+  
+    <div class="title text-center">
+      <h1>ROCK PAPER SCISSORS</h1>
+    </div>
+  
+    <div class="reset text-center">
+      <button class="btn btn-danger" type="submit" id="btn">RESET</button>
+    </div>
+  
+    <div class="container text-center">
+      <div id="rock">
+        <img src="./img/rock.jpeg" width="200px" alt="rock">
+      </div>
+      <div id="paper">
+        <img src="./img/paper.jpg" width="200px" alt="paper">
+      </div>
+      <div id="scissors">
+        <img src="./img/scissors.jpeg" width="200px" alt="scissors">
       </div>
     </div>
+  
+    <div class="score">
+      <div class="player">
+        <p id="player">Player : </p>
+    </div>
+      <div class="computer">
+        <p id="computer">Computer : </p>
+      </div>
+    </div>
+  
   </div>
+
   <script src="app.js"></script>
 </body>
 </html>
